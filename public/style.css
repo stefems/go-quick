@@ -23,6 +23,18 @@ body.open
 {
     font-family: 'Montserrat', sans-serif, Arial;
 }
+.banner-text {
+    text-align: right;
+    position: relative;
+    font-size: 11px;
+    color: lightgrey;
+    width: 90%;
+    top: -12px;
+    right: 5px;
+}
+.banner-text a {
+    color: #0697AE;
+}
 
 body a
 {
@@ -30,7 +42,9 @@ body a
     color: #404040;    
     transition: color .2s linear, background-color .2s linear, border-color .2s linear;
 }
-
+.content-wrap p {
+    margin-bottom: 20px;
+}
 body a:hover
 {
     color: #0697AE;
@@ -775,14 +789,17 @@ body.open .site-content
 .page .page-header-image
 {
     line-height: 0;
+    max-height: 400px
+    width: 100%;
+    overflow-y: hidden;
+    text-align: center;
 }
 
 .page .page-header-image img
 {
-    width: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    height: auto;
+    width: 80%;
+    position: relative;
+    margin-top: -15px;
 }
 
 .page-template-default article
@@ -1197,7 +1214,7 @@ body.open .site-content
 
 }
 
-@media screen and (max-width: 1020px) {    
+@media screen and (max-width: 1650px) {    
 
     .one_half, .one_third, .one_fourth, .two_third, .three_fourth
     {

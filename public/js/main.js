@@ -1,5 +1,5 @@
 jQuery(document).ready(function () {
-    
+
     if (is_touch_device())
     {
         jQuery('.full-screen-scroll article').css('opacity', '1', '!important');
