@@ -678,3 +678,12 @@ span.cbp-biprev:before {
 .no-js.backgroundsize .cbp-bislideshow li:first-child img {
     display: block;
 }
+
+video {
+	max-width: 100%;
+}
+.image-subtext {
+	text-align: right;
+    color: grey;
+    font-style: italic
+}
